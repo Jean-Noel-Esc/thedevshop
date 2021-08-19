@@ -7,7 +7,7 @@ import useStyles from './styles';
 
 const products = [
     { id:1, name: "shoes", description: "Running shoes.", price: "$5" },
-    { id:1, name: "MacBook", description: "Apple macbook.", price: "$1000" },
+    { id:2, name: "MacBook", description: "Apple macbook.", price: "$1000" },
 ];
 
 const Products = () => {
@@ -15,7 +15,7 @@ const Products = () => {
 
 
     return ( 
-        <main classname={classes.content}>
+        <main className={classes.content}>
             <div className={classes.toolbar} />
             <Grid container justify="center" spacing={4}>
                 { products.map((product) => (
